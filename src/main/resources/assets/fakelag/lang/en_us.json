@@ -1,0 +1,6 @@
+{
+  "key.category.fakelag.main": "FakeLag",
+  "key.fakelag.hold": "Hold packets (blink)",
+  "key.fakelag.delay": "Toggle delay lag",
+  "key.fakelag.delay_cycle": "Cycle delay time"
+}

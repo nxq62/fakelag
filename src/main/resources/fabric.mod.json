@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fakelag",
+  "version": "${version}",
+  "name": "FakeLag",
+  "description": "Fakelag po stronie klienta: opoznienie pakietow i tryb hold. Dziala razem z modem Freecam.",
+  "authors": ["Janusz"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.fakelag.FakeLagClient"]
+  },
+  "mixins": ["fakelag.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
